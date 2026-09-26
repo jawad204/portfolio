@@ -1,0 +1,116 @@
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #5a6472;
+  --accent: #2563eb;
+  --accent-light: #eaf1fe;
+  --border: #e2e8f0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+#hero {
+  text-align: center;
+  padding-top: 120px;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+#hero p {
+  color: var(--muted);
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 32px;
+  color: var(--accent);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 8px;
+}
+
+#projects {
+  background: var(--accent-light);
+  border-radius: 12px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.project-card h3 {
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.project-card .stack {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 8px 0;
+}
+
+.project-card a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#contact p {
+  margin-bottom: 12px;
+}
+
+#contact a {
+  color: var(--accent);
+}
+
+
+nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid var(--border);
+  padding: 16px 24px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  z-index: 10;
+}
+
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
