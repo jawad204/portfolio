@@ -43,8 +43,8 @@ function App() {
       <ProjectCard
     title="E-commerce Platform"
     description="A full-stack e-commerce system with product listings, cart, and checkout flow."
-    stack="Django · React"
-    link="https://github.com/jawad204/YOUR-REPO-NAME"
+    stack="Django-drf · React"
+    link="https://github.com/jawad204/ecommerce_fullstack"
   />
 </div>
       </section>
