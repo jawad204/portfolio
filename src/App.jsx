@@ -59,7 +59,7 @@ function App() {
     focused on full-stack development and applied Ai. I like building
     practical tools — from automating real business workflows to
     retrieval-augmented systems — and I'm currently deepening my Linux,
-    LLMs, LLMOps and agentic ai.
+    LLMs, MLOps and agentic ai.
   </p>
       </section>
 
