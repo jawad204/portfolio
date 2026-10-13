@@ -15,7 +15,7 @@ function App() {
         <a href="#contact">Contact</a>
       </nav>
       <section id="hero">
-        <h1>Jawad Bassam Shalabi</h1>
+        <h1>Jawad Shalabi</h1>
         <p>software & ai engineer</p>
         <p>CIS grad · Full-stack + AI</p>
       </section>
