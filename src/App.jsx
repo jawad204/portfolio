@@ -49,7 +49,7 @@ function App() {
             title="Pull Review Agent"
             description="Autonomous PR Review Agent, An event-driven GitHub agent built with FastAPI and LangGraph that analyzes incoming pull requests and posts automated code reviews in seconds.."
             stack="Python · FastAPI · LangGraph · LangSmith · GitHub REST API & Webhooks · Smee.io "
-            link="https://github.com/jawad204/rag-diabetes"
+            link="https://github.com/jawad204/pull_review_agent"
           />
           <ProjectCard
             title="Quotation Workflow Automation Agent"
