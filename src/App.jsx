@@ -46,6 +46,12 @@ function App() {
             link="https://github.com/jawad204/rag-diabetes"
           />
           <ProjectCard
+            title="Pull Review Agent"
+            description="Autonomous PR Review Agent, An event-driven GitHub agent built with FastAPI and LangGraph that analyzes incoming pull requests and posts automated code reviews in seconds.."
+            stack="Python · FastAPI · LangGraph · LangSmith · GitHub REST API & Webhooks · Smee.io "
+            link="https://github.com/jawad204/rag-diabetes"
+          />
+          <ProjectCard
             title="Quotation Workflow Automation Agent"
             description="An agentic tool that reads quotation PDFs, tracks confirmation emails, fills the data into Excel, and generates material requisitions automatically."
             stack="Python · PDF extraction · Excel automation · Desktop app"
